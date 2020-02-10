@@ -1,0 +1,80 @@
+.GetUris {
+    width: 85%;
+    margin-bottom: 3rem;
+}
+
+.GetUris form {
+    width: 100%;
+    margin: 2rem 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.GetUris input {
+    width: 80%;
+    height: 2.5rem;
+    background-color: rgba(0, 0, 0, 0.05);
+    border: none;
+    padding: 0 1rem;
+    font-size: 1.05rem;
+    border-radius: 1rem;
+    outline: none!important;    
+}
+
+.GetUris .get {
+    cursor: pointer;
+    width: 4rem;
+    height: 2.5rem;
+    margin: 1rem 0 2rem 0;
+    border-radius: 0.25rem;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    user-select: none;
+    font-size: 1rem;
+    outline: none!important;
+}
+
+.GetUris .get:hover {
+    background-color: #1d8d37;
+}
+
+.GetUris .result {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.GetUris .result div {
+    width: 20%;
+    margin: 10px 10px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
+}
+
+.GetUris .result img {
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 1000px) {
+    .GetUris .result div {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .GetUris {
+        width: 100%;
+    }
+
+    .GetUris .result div {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .GetUris .result div {
+        width: 90%;
+    }
+}
